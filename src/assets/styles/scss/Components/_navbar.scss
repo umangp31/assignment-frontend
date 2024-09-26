@@ -1,0 +1,56 @@
+.headerContainer {
+    border-bottom: 1px solid #0000001a;
+  
+    .navbar {
+      padding: 0 90px;
+      height: 86px;
+  
+      @media #{$laptopDevice} {
+        max-width: 100vw;
+        margin-inline: auto;
+      }
+  
+      .companyLogo {
+        width: 209px;
+        height: 38px;
+      }
+  
+      .navLink {
+        display: flex;
+        align-items: center;
+  
+        a {
+          display: flex;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 20px;
+          text-align: left;
+          width: 85.5px;
+          height: 20px;
+          color: #707070;
+  
+          &.active {
+            color: #111010;
+          }
+          &.disabled {
+            color: #a09f9f;
+            cursor: no-drop;
+          }
+        }
+      }
+  
+      .getBtn {
+        width: 136px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        font-family: Open Sans;
+        background-color: #ef001c;
+        color: #ffffff;
+      }
+    }
+  }
+  

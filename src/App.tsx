@@ -1,13 +1,13 @@
-import './App.css'
+// import Header from './components/header/Header'
+// import './assets/styles/tailwind.css';
+// import './assets/styles/scss/global.scss';
 
-function App() {
+// function App() {
+//   return (
+//     <nav className=''>
+//       <Header/>
+//     </nav>
+//   )
+// }
 
-
-  return (
-    <>
-      Hello      
-    </>
-  )
-}
-
-export default App
+// export default App
