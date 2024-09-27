@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        everett: ['"Everett Regular"', 'sans-serif'],
+        opensans: ['"Open Sans"', 'sans-serif'],
+      },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(-100%)' },

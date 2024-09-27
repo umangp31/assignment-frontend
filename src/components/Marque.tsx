@@ -29,7 +29,7 @@ function Marque() {
                 key={index}
                 src={logo.src}
                 alt={logo.alt}
-                className="h-10 mx-6"
+                className="h-8 mx-8"
               />
             ))}
           </Marquee>
