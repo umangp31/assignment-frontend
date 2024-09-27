@@ -1,0 +1,34 @@
+.footerContainer{
+
+    width: 100vw;
+    height: 366px;
+    padding: 64px 96px 24px 96px;
+    // bottom: 0;
+    // position: fixed;
+
+    @media #{$laptopDevice} {
+        max-width: 100vw;
+        margin-inline: auto;
+    }
+    
+    .footLink {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        
+        h2{
+            font-family: var(--font-style-Everett);
+            padding-bottom: 12px;
+        }
+  
+        li {
+          font-family: Open Sans;
+          font-weight: 500;
+          text-align: left;
+          width: fit-content;
+          color: #707070;
+          padding: 10px 0;
+          color: #111010; 
+        }
+      }
+}

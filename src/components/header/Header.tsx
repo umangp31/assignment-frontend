@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="headerContainer">
+    <header className="headerContainer ">
       <div className="flex justify-between items-center navbar">
         <Link to={'/'} className="flex items-center">
           <img className="companyLogo" src={CompanyLogo} />
