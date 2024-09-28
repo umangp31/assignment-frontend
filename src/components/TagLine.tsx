@@ -10,13 +10,13 @@ function TagLine() {
         <div className="flex moving-logos py-4 bg-black font-everett lg:h-[166px] ">
           <Marquee direction="right" speed={150} gradient={false} pauseOnHover={true}>
             {tags.map((item) => (
-              <h1 className="lg:text-[68px] text-white px-2 font-medium" >{item.tag}</h1>
+              <h1 className="lg:text-[68px] text-2xl text-white px-2 font-medium" >{item.tag}</h1>
             ))}
-                        <div className=" w-2 h-[70px] bg-white mx-10"></div>
+            <div className=" w-1 lg:w-2 h-12 lg:h-[70px] bg-white mx-10"></div>
             {tags.map((item) => (
-              <h1 className="lg:text-[68px] text-white px-2 font-medium" >{item.tag}</h1>
+              <h1 className="lg:text-[68px] text-2xl text-white px-2 font-medium" >{item.tag}</h1>
             ))}
-            <div className=" w-2 h-[70px] bg-white mx-10"></div>
+            <div className="w-1 lg:w-2 h-12 lg:h-[70px] bg-white mx-10"></div>
           </Marquee>
         </div>
       );

@@ -2,11 +2,11 @@ import Vinita from "../assets/Home/Ayesha.svg";
 import Milly from "../assets/Home/Marin.svg";
 function Contact() {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-2 space-x-16 mx-0 lg:items-start lg:h-full">
+    <main className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-16 mx-0 lg:items-start lg:h-full px-6 lg:px-0 ">
       {/* Left Column: Heading + List of People */}
-      <div className="flex flex-col justify-between h-full space-y-0 ">
-        <div className="flex text-left ">
-          <h2 className="text-7xl font-semibold font-everett">
+      <div className="lg:flex lg:flex-col lg:justify-between h-full space-y-8 lg:space-y-0 ">
+        <div className="lg:flex text-left ">
+          <h2 className=" text-5xl lg:text-7xl font-semibold font-everett">
             LET'S START SOMETHING <br />{" "}
             <span className="text-red-500">NEW</span> <br />
             TOGETHER
@@ -14,7 +14,7 @@ function Contact() {
         </div>
 
         {/* List of People */}
-        <div className="flex gap-4">
+        <div className="lg:flex gap-4">
           {[
             {
               name: "Milly Cyrus",
@@ -33,12 +33,12 @@ function Contact() {
           ].map((person, index) => (
             <div
               key={index}
-              className="flex flex-col border-l-[2px] gap-y-2 space-x-4  "
+              className="flex flex-col border-b-[2px] justify-center items-center lg:items-baseline lg:justify-start mx-4 lg:mx-0  lg:border-b-0 lg:border-l-[2px] gap-y-2 lg:space-x-4  "
             >
               <img
                 src={person.image}
                 alt={person.name}
-                className="object-cover w-16 h-16 my-1 rounded-full mx-4"
+                className="my-3 lg:my-1 object-cover w-28 h-28 lg:w-16 lg:h-16  rounded-full mx-4"
               />
               <div>
                 <p className="text-gray-600 my-1">{person.description}</p>
@@ -52,7 +52,7 @@ function Contact() {
       </div>
 
       {/* Right Column: Contact Form */}
-      <div className="pb-8 gap-x-8 w-[70%] pt-4 ">
+      <div className="flex flex-col lg:block justify-center items-center self-center mx-0 lg:mx-0 px-0 lg:px-0 w-fit pb-8 lg:gap-x-8 lg:w-[70%] pt-8 lg:pt-4 ">
         <h3 className="text-2xl font-semibold font-opensans">
           Give us a few details and we’ll get in touch
         </h3>

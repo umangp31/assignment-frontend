@@ -10,7 +10,7 @@ import Testimony from "../../components/Testimony";
 
 function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col lg:overflow-x-hidden ">
       <section className="lg:w-screen h-full lg:px-[90px] lg:h-screen lg:pt-9  lg:pb-0 ">
         <Hero/>
       </section>
@@ -29,7 +29,7 @@ function Home() {
       <section className="w-screen lg:px-[90px]" >
         <FAQ/>
       </section>
-      <article className="w-screen my-0 mx-auto px-[90px] py-24 bg-[#F1F2F6] " >
+      <article className="w-screen lg:px-[90px] py-24 bg-[#F1F2F6] " >
         <Contact/>
       </article>
       <nav className=" w-screen ">

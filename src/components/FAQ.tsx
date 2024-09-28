@@ -18,9 +18,9 @@ function FAQ() {
   ];
 
   return (
-    <div>
-      <div className="grid grid-cols-[40%,60%] gap-2 max-w-full mb-24">
-        <h2 className="font-everett text-[52px] font-semibold leading-[54px] tracking-[-0.04em] text-left text-[#111010]">
+    <div className="px-6 lg:px-0 overflow-x-hidden">
+      <div className="lg:grid lg:grid-cols-[40%,60%] gap-2 lg:max-w-full mb-24">
+        <h2 className="font-everett text-3xl lg:text-[52px] font-semibold leading-[54px] tracking-[-0.04em] text-left text-[#111010]">
           Frequently asked questions
         </h2>
 

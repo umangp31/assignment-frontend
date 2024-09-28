@@ -1,26 +1,26 @@
-:root {
-  //font-style
-  --font-style: "Open Sans", sans-serif;
-  --font-style-Everett: "Everett Regular";
+// :root {
+//   //font-style
+//   --font-style: "Open Sans", sans-serif;
+//   --font-style-Everett: "Everett Regular";
 
-  // Theme Color
-  --color-primary: #ffffff;
+//   // Theme Color
+//   --color-primary: #ffffff;
 
-  //text-color
-  --text-primary: #111010;
-  --text-secondary: #ef001c;
+//   //text-color
+//   --text-primary: #111010;
+//   --text-secondary: #ef001c;
 
-  //width
-  --max-width: 1440px;
-}
+//   //width
+//   --max-width: 1440px;
+// }
 
-// Desktop (1440px)
-$laptopDevice: "only screen and (min-width: 1440px)";
+// // Desktop (1440px)
+// $laptopDevice: "only screen and (min-width: 1440px)";
 
-// Tablet
-$tabletDevice: "only screen and (min-width: 768px) and (max-width: 1439px)";
+// // Tablet
+// $tabletDevice: "only screen and (min-width: 768px) and (max-width: 1439px)";
 
-// Mobile
-$mobileDevice: "only screen and (max-width: 767px)";
-$largeMobile: "only screen and (max-width: 575px)";
-$smallMobile: "only screen and (max-width: 479px)";
+// // Mobile
+// $mobileDevice: "only screen and (max-width: 767px)";
+// $largeMobile: "only screen and (max-width: 575px)";
+// $smallMobile: "only screen and (max-width: 479px)";
