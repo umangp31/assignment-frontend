@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './assets/styles/tailwind.css';
-import './assets/styles/scss/global.scss';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/Home/Home';

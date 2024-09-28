@@ -1,9 +1,9 @@
-import Testimony from "../../components/Testimony"
+import Stats from "../../components/Stats"
 
 function Work() {
   return (
     <section className="px-[90px]" >
-      <Testimony/>
+      <Stats/>
     </section>
   )
 }

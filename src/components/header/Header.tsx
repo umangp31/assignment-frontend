@@ -2,6 +2,7 @@
 import { Link, NavLink } from "react-router-dom";
 import CompanyLogo from "../../assets/Navbar/companyLogo.svg";
 import TopRightArrow from "../../assets/Navbar/topRightArrow.svg";
+import ArrowDownRight from "../../assets/ArrowDownRight.svg";
 import { useState } from "react";
 import hamburger from '../../assets/hamburger.svg';
 import cross from '../../assets/cross.svg'
@@ -29,7 +30,7 @@ function Header() {
         </div>
 
         {/* Navigation for Desktop */}
-        <nav className="hidden md:flex space-x-8 text-sm items-center  ">
+        <nav className="hidden md:flex space-x-8 text-sm items-center font-medium ">
           <NavLink to="/services" className="flex items-center justify-center">
             <span>SERVICES</span>
             <img src={TopRightArrow} alt="Arrow" />
@@ -38,9 +39,9 @@ function Header() {
             <span>WORK</span>
             <img src={TopRightArrow} alt="Arrow" />
           </NavLink>
-          <NavLink to="/about" className="flex items-center justify-center">
+          <NavLink to="/about" className="flex items-center justify-center text-black">
             <span>ABOUT</span>
-            <img src={TopRightArrow} alt="Arrow" />
+            <img src={ArrowDownRight} alt="Arrow" />
           </NavLink>
           <Link to="/">
             <button className="bg-red-600 text-white font-semibold px-6 py-2 rounded-full">
@@ -63,7 +64,7 @@ function Header() {
               </NavLink>
               <NavLink to="/about" className="flex items-center justify-center">
                 <span>ABOUT</span>
-                <img src={TopRightArrow} alt="Arrow" />
+                <img src={ArrowDownRight} alt="Arrow" />
               </NavLink>
               <Link to="/">
                 <button className="bg-red-600 text-white font-semibold px-6 py-2 rounded-full">
