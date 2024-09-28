@@ -1,6 +1,11 @@
+
+import Points from "../../components/Points"
+
 function About() {
   return (
-    <div className="w-screen h-80 bg-blue-400" >About</div>
+    <section className="py-10 px-[90px] my-0 mx-auto " >
+      <Points/>
+    </section>
   )
 }
 

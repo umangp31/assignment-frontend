@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <section className="footerContainer bg-white text-black h-full ">
+    <section className="footerContainer px-[45px] pt-[64px] pb-[24px] w-screen h-[366px] bg-white text-black my-0 mx-auto max-w-[1440px] ">
       <div className="grid grid-cols-2 gap-8 md:grid-cols-5 h-4/5">
         <div className="">
-          <ul className="footLink list-none">
-            <h2 className="font-bold lg:text-2xl">COMPANY</h2>
+          <ul className="footLink flex flex-col list-none">
+            <h2 className="font-bold lg:text-2xl font-everett pb-[12px]">COMPANY</h2>
             <li>
               <NavLink to={"/about"}>Who Are We</NavLink>
             </li>
@@ -14,47 +14,47 @@ function Footer() {
         </div>
         <div className="">
           <ul className="footLink list-none">
-            <h2 className="font-bold lg:text-2xl">RESOURCES</h2>
-            <li>
+            <h2 className="font-bold lg:text-2xl font-everett pb-[12px]">RESOURCES</h2>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Blog</NavLink>
             </li>
           </ul>
         </div>
         <div className="">
           <ul className="footLink list-none">
-            <h2 className="font-bold lg:text-2xl">WORK</h2>
-            <li>
-              <NavLink to={"/about"}>Video</NavLink>
+            <h2 className="font-bold lg:text-2xl font-everett pb-[12px]">WORK</h2>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
+              <NavLink to={"/work"}>Video</NavLink>
             </li>
-            <li>
-              <NavLink to={"/about"}>Shoot</NavLink>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
+              <NavLink to={"/services"}>Shoot</NavLink>
             </li>
-            <li>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Post</NavLink>
             </li>
           </ul>
         </div>
         <div className="">
           <ul className="footLink list-none">
-            <h2 className="font-bold lg:text-2xl">SERVICES</h2>
-            <li>
+            <h2 className="font-bold lg:text-2xl font-everett pb-[12px]">SERVICES</h2>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Video</NavLink>
             </li>
-            <li>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Shoot</NavLink>
             </li>
-            <li>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Post</NavLink>
             </li>
           </ul>
         </div>
         <div className="">
           <ul className="footLink list-none">
-            <h2 className="font-bold lg:text-2xl">CONTACT</h2>
-            <li>
+            <h2 className="font-bold lg:text-2xl font-everett pb-[12px]">CONTACT</h2>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Talk to us</NavLink>
             </li>
-            <li>
+            <li className="font-opensans font-medium text-left w-fit text-[#707070] py-[10px] px-0" >
               <NavLink to={"/about"}>Collab</NavLink>
             </li>
           </ul>
@@ -64,7 +64,7 @@ function Footer() {
         <h2>Copyright © 2023 Red Bangle</h2>
         <div className="flex flex-col">
           <ul className="flex justify-evenly gap-10" >
-            <li>
+            <li >
               Privacy Policy
             </li>
             <li>

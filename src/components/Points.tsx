@@ -9,25 +9,23 @@ function Points() {
   };
 
   return (
-    <div>
-      <h1 className="font-everett text-5xl leading-tight font-semibold tracking-normal ">
+    <div className="w-full pt-0 pb-0 px-6 lg:px-0 lg:pt-0 lg:pb-0 tracking-normal" >
+      <h1 className=" w-full font-everett text-4xl lg:text-5xl leading-tight font-semibold  ">
         <span>Our expertise and passion</span>
+        <br className="hidden lg:block" /> <span>breathe life into your narratives</span>
       </h1>
-      <h1 className="font-everett text-5xl tracking-normal font-semibold">
-        <span>breathe life into your narratives</span>
-      </h1>
-      <div className="grid grid-cols-[1fr_2fr] gap-8 md:grid-cols-[1fr_2fr] min-h-[400px] pt-12">
+      <div className="flex flex-col lg:grid lg:grid-cols-[1fr_2fr] lg:gap-8 md:grid-cols-[1fr_2fr] min-h-[400px] pt-12">
         <div className="flex accordian-img ">
           <img
             src={clapping}
             alt="People clapping"
-            className="rounded-lg w-[484px] h-[451px] "
+            className="w-full h-full object-contain lg:rounded-lg lg:w-[484px] lg:h-[451px] "
           />
         </div>
 
-        <div className="flex flex-col justify-start accordion-container mt-9">
+        <div className="flex flex-col justify-start accordion-container lg:mt-9  ">
           <div className="flex flex-col justify-center ">
-            <div className="space-y-2 text-gray-500">
+            <div className="space-y-2 text-gray-500 mt-8 lg:mt-0 ">
               {/* ACC-1 */}
               <div className="" >
                 <div

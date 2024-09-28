@@ -1,7 +1,10 @@
+import Contact from "../../components/Contact"
 
 function Services() {
   return (
-    <div className="w-screen h-80 bg-orange-400">Services</div>
+    <section className="py-10 px-[90px] " >
+      <Contact/>
+    </section>
   )
 }
 

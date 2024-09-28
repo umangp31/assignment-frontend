@@ -1,6 +1,10 @@
+import Testimony from "../../components/Testimony"
+
 function Work() {
   return (
-    <div className="w-screen h-80 bg-purple-400">Work</div>
+    <section className="px-[90px]" >
+      <Testimony/>
+    </section>
   )
 }
 
