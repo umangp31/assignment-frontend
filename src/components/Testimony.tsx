@@ -2,7 +2,7 @@ import { useState } from "react";
 import Testimony1 from "../assets/Testimony1.svg";
 import Ayesha from "../assets/Home/Ayesha.svg";
 import Marin from "../assets/Home/Marin.svg";
-import ArrowRignt from "../assets/ArrowRight.png";
+import ArrowRignt from "../assets/Home/arrowRight.svg";
 import ArrowLeft from "../assets/ArrowLeft.svg";
 function Testimony() {
   const [index, setIndex] = useState(0);
@@ -55,7 +55,7 @@ function Testimony() {
       </div>
 
       {/* Gallery Container */}
-      <div className="flex flex-col lg:grid lg:grid-cols-[40%_60%] items-center mb-24 lg:max-w-full ">
+      <div className="flex flex-col lg:grid lg:grid-cols-[40%_60%] items-center mb-24 lg:max-w-full lg:gap-8">
         {/* Image Section */}
         <div className="flex justify-center lg:justify-normal items-center w-full h-full lg:w-[484px] lg:h-[517px] pb-6 lg:pb-0 ">
           <img

@@ -31,7 +31,7 @@ function FAQ() {
                 onClick={() => toggleFAQ(index)}
                 className="flex items-center justify-between w-full text-left"
               >
-                <span className="text-[18px] font-normal transition ease-in-out duration-300 leading-[18px] tracking-[-0.006em] text-left text-[#111010]">
+                <span className="font-opensans text-[18px] font-normal transition ease-in-out duration-300 lg:leading-[18px] lg:tracking-[-0.006em] text-left text-[#111010]">
                   {faq}
                 </span>
                 <span>
@@ -40,7 +40,7 @@ function FAQ() {
               </button>
 
               {activeFAQ === index && (
-                <p className="mt-2 text-gray-600 transition ease-in duration-300">
+                <p className="mt-2 text-gray-600 transition ease-in duration-300 font-opensans ">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Perferendis nemo blanditiis consequuntur officia dicta aliquam
                   ex iure non praesentium minima!

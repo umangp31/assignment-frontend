@@ -1,5 +1,6 @@
 import Vinita from "../assets/Home/Ayesha.svg";
 import Milly from "../assets/Home/Marin.svg";
+import ArrowRight from '../assets/Home/arrowRight.svg'
 function Contact() {
   return (
     <main className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-16 mx-0 lg:items-start lg:h-full px-6 lg:px-0 ">
@@ -7,7 +8,7 @@ function Contact() {
       <div className="lg:flex lg:flex-col lg:justify-between h-full space-y-8 lg:space-y-0 ">
         <div className="lg:flex text-left ">
           <h2 className=" text-5xl lg:text-7xl font-semibold font-everett">
-            LET'S START SOMETHING <br />{" "}
+            LETS START SOMETHING <br />{" "}
             <span className="text-red-500">NEW</span> <br />
             TOGETHER
           </h2>
@@ -33,7 +34,7 @@ function Contact() {
           ].map((person, index) => (
             <div
               key={index}
-              className="flex flex-col border-b-[2px] justify-center items-center lg:items-baseline lg:justify-start mx-4 lg:mx-0  lg:border-b-0 lg:border-l-[2px] gap-y-2 lg:space-x-4  "
+              className="flex flex-col font-opensans border-b-[2px] justify-center items-center lg:items-baseline lg:justify-start mx-4 lg:mx-0  lg:border-b-0 lg:border-l-[2px] gap-y-2 lg:space-x-4  "
             >
               <img
                 src={person.image}
@@ -84,9 +85,10 @@ function Contact() {
           />
           <button
             type="submit"
-            className="w-full px-6 py-4 mt-10 rounded-full font-bold text-white transition duration-300 bg-red-500 hover:bg-red-600"
+            className="flex justify-center items-center gap-2 w-full px-6 py-4 font-opensans mt-10 rounded-full font-bold text-white transition duration-300 bg-red-500 hover:bg-red-600"
           >
-            CONTACT US →
+            <h1>CONTACT US</h1>
+            <img src={ArrowRight} alt="" />
           </button>
         </form>
       </div>

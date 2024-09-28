@@ -15,7 +15,7 @@ function Header() {
   };
 
   return (
-    <header className="border-b border-black/10 lg:bg-transparent px-0">
+    <header className="border-b border-black/10 lg:bg-transparent px-0 font-opensans ">
       <div className="flex justify-between items-center h-16 px-8  lg:h-[86px] lg:px-[90px] w-screen max-w-full mx-auto">
         {/* Logo */}
         <Link to="/" className="flex items-center">
@@ -30,12 +30,12 @@ function Header() {
         </div>
 
         {/* Navigation for Desktop */}
-        <nav className="hidden md:flex space-x-8 text-sm items-center font-medium ">
-          <NavLink to="/services" className="flex items-center justify-center">
+        <nav className="hidden md:flex space-x-8 text-sm items-center font-medium font-opensans">
+          <NavLink to="/services" className="flex items-center justify-center opacity-60 text-[#111010] ">
             <span>SERVICES</span>
             <img src={TopRightArrow} alt="Arrow" />
           </NavLink>
-          <NavLink to="/work" className="flex items-center justify-center">
+          <NavLink to="/work" className="flex items-center justify-center opacity-60 text-[#111010] ">
             <span>WORK</span>
             <img src={TopRightArrow} alt="Arrow" />
           </NavLink>
@@ -54,15 +54,15 @@ function Header() {
         {isMenuOpen && (
           <div className="absolute top-[56px] left-0 w-screen bg-white shadow-md transition ease-out duration-300 md:hidden z-10 ">
             <nav className="flex flex-col items-center space-y-4 py-4">
-              <NavLink to="/services" className="flex items-center justify-center">
+              <NavLink to="/services" className="flex items-center justify-center opacity-60 text-[#111010]">
                 <span>SERVICES</span>
                 <img src={TopRightArrow} alt="Arrow" />
               </NavLink>
-              <NavLink to="/work" className="flex items-center justify-center">
+              <NavLink to="/work" className="flex items-center justify-center opacity-60 text-[#111010]">
                 <span>WORK</span>
                 <img src={TopRightArrow} alt="Arrow" />
               </NavLink>
-              <NavLink to="/about" className="flex items-center justify-center">
+              <NavLink to="/about" className="flex items-center justify-center text-black">
                 <span>ABOUT</span>
                 <img src={ArrowDownRight} alt="Arrow" />
               </NavLink>
