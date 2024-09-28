@@ -44,7 +44,6 @@ function Testimony() {
 
   return (
     <div className="my-4 lg:my-20 px-6 lg:px-0">
-      {/* Testimony Heading */}
       <div className="flex items-center  mb-8 py-8">
         <div className="relative flex lg:items-center gap-1 lg:gap-3">
           <div className="w-4 lg:w-[3.5rem] mt-[14px] lg:mt-0 h-[1px] border bg-[#ef001c] border-[#ef001c]"></div>
@@ -54,9 +53,7 @@ function Testimony() {
         </div>
       </div>
 
-      {/* Gallery Container */}
       <div className="flex flex-col lg:grid lg:grid-cols-[40%_60%] items-center mb-24 lg:max-w-full lg:gap-8">
-        {/* Image Section */}
         <div className="flex justify-center lg:justify-normal items-center w-full h-full lg:w-[484px] lg:h-[517px] pb-6 lg:pb-0 ">
           <img
             src={frames[index].image}
@@ -65,14 +62,12 @@ function Testimony() {
           />
         </div>
 
-        {/* Text Section */}
         <div className="flex flex-col w-fit h-fit justify-between lg:h-full lg:w-fit ">
           <div className=" w-fit h-fit max-h-44 min-h-44 lg:max-h-none lg:w-[634px] lg:h-[205px] lg:text-[24px] font-semibold lg:leading-[41px] tracking-tight text-black">
             {frames[index].description}
           </div>
 
           <div className="flex h-16 lg:h-full justify-between items-end mt-4">
-            {/* Role Information */}
             <div className="mb-2">
               <div className="text-xl lg:text-[28px] font-bold leading-[32px] text-black">
                 {frames[index].title},{" "}
@@ -85,7 +80,6 @@ function Testimony() {
               </div>
             </div>
 
-            {/* Button Controls */}
             <div className="hidden lg:flex gap-2 mt-4">
               <button
                 className="rounded-full flex items-center justify-center px-4 py-6 w-16 h-10 border border-black bg-white text-black"
