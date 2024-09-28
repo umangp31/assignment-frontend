@@ -16,7 +16,7 @@ function Hero() {
         </div>
         <span>AGENCY</span>
       </h1>
-      <div className="flex flex-col px-6 lg:px-0 py-10 lg:py-0 w-fit lg:w-full md:flex-row items-start md:items-end justify-center lg:justify-between lg:gap-6">
+      <div className="flex flex-col md:w-full px-6 lg:px-0 py-10 lg:py-0 w-fit lg:w-full md:flex-row items-start md:items-end justify-center md:justify-between lg:justify-between lg:gap-6">
         <div className="flex flex-col mt-0 w-80  lg:w-full gap-4 lg:gap-8 lg:mt-[80px] lg:max-w-[725px] get-service">
           <p className="get-service-title max-w-full pb-2 lg:pb-0 lg:max-w-none font-opensans font-semibold lg:text-[24px] lg:leading-[32px] lg:tracking-[-0.04em] text-left text-[#111010]">
             Designed with the specific needs of large B2B enterprises in mind,
@@ -30,7 +30,7 @@ function Hero() {
               <img src={ArrowRight} alt="right arrow" />
             </div>
 
-            <div className="flex items-center gap-2 space-x-2  ">
+            <div className="flex items-center gap-2 space-x-2 md:justify-start md:self-start ">
               <div className="flex -space-x-2 overflow-hidden py-4 lg:py-0">
                 <img
                   className="z-10 inline-block w-12 h-12 rounded-full ring-2 ring-white"

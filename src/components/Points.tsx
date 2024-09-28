@@ -10,16 +10,16 @@ function Points() {
 
   return (
     <div className="w-full pt-0 pb-0 px-6 lg:px-0 lg:pt-0 lg:pb-0 tracking-normal" >
-      <h1 className=" w-full font-everett text-4xl lg:text-5xl leading-tight font-semibold  ">
+      <h1 className=" w-full font-everett text-4xl md:text-5xl lg:text-5xl leading-tight font-semibold  ">
         <span>Our expertise and passion</span>
         <br className="hidden lg:block" /> <span>breathe life into your narratives</span>
       </h1>
-      <div className="flex flex-col lg:grid lg:grid-cols-[1fr_2fr] lg:gap-8 md:grid-cols-[1fr_2fr] min-h-[400px] pt-12">
-        <div className="flex accordian-img ">
+      <div className="flex flex-col  lg:grid lg:grid-cols-[1fr_2fr] lg:gap-8 md:grid-cols-[1fr_2fr] min-h-[400px] pt-12">
+        <div className="flex accordian-img md:flex md:justify-center ">
           <img
             src={clapping}
             alt="People clapping"
-            className="w-full h-full object-contain lg:rounded-lg lg:w-[484px] lg:h-[451px] "
+            className="w-full h-full object-contain lg:rounded-lg md:w-96 md:h-96 lg:w-[484px] lg:h-[451px] "
           />
         </div>
 
